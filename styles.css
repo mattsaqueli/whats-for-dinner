@@ -16,11 +16,10 @@ html {
 header {
     background-color: #0fb9b1;
     display:flex;
-    padding: 5px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     justify-content: space-between;
-
 }
 
 body {
@@ -38,4 +37,13 @@ body {
 
 h4 {
     font-size: 30px;
+}
+
+.squares {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    gap: 50px;
+    position: relative;
 }
