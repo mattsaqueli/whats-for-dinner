@@ -8,42 +8,113 @@ red - #ee5253
 
 */
 
-html {
-    background-image: url(./assets/burger-friends.jpg);
-    background-size: cover;
-}
-
-header {
-    background-color: #0fb9b1;
-    display:flex;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    justify-content: space-between;
-}
-
 body {
-    margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-image: url('assets/burger-friends.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+  }
 
+.topbar {
+    display: flex;
+    background: #0fb9b1;
+    height: 25px;
+    align-items: center;
+    padding: 20px;
 }
 
-.add-recipe-button {
-    padding: 5px, 15px;
-    border-radius: 6px;
-    height: 40px;
-    margin-top: 9px;
+.whats-for-dinner {
+    font-size: 25px;
 }
 
-h4 {
+.center-box {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    padding: 60px;
+    gap: 10%
+}
+
+fieldset {
+    border: 0;
+}
+
+.input-box {
+    width: 500px;
+    height: 325px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+}
+
+#input-title {
     font-size: 30px;
 }
 
-.squares {
-    justify-content: space-evenly;
+.lets-cook-btn {
+    background: #0fb9b1;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.cookpot-img {
+    margin: 0;
+}
+
+.output-box {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 25px;
+    height: 325px;
+    width: 500px;
     display: flex;
-    padding: 50px;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.you-should-make {
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    margin: 0px;
+}
+
+.clear-btn {
+    position: fixed;
+    background: #95a5a6;
+    font-size: 15px;
+    color: #ffffff;
+    width: 75px;
+    height: 38px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+
+.change-box {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 50px;
-    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.recipe-name  {
+    text-align: center;
+    text-size-adjust: auto;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
 }
