@@ -71,11 +71,11 @@ function clearRecipe() {
 }
 
 function randomRecipe() {
-      clearBtn.style.visibility = 'visible';
       var btnOptions = document.getElementsByName('radio');
       for (var i = 0; i < btnOptions.length; i++) {
           if (btnOptions[i].checked) {
               btnOptions[i].checked = false;
+              clearBtn.style.visibility = 'visible';
               var mealOption = (btnOptions[i].value);
             }
         }
