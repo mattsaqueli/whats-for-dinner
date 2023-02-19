@@ -48,7 +48,6 @@ var desserts = [
     "Eclairs"
 ]
 
-var selectionBtn = document.querySelector('.selection-btn');
 var letsCookBtn = document.querySelector('.lets-cook-btn');
 var clearBtn = document.querySelector('.clear-btn');
 var cookPotImg = document.querySelector('cookpot-img');
@@ -60,4 +59,15 @@ clearBtn.addEventListener('click', clearRecipe);
 function getRandomIndex(array) {
     return Math.floor(Math.random() * array.length);
   }
+
+function clearRecipe() {
+    clearBtn.style = 'hidden';
+    changeBox.innerHTML = `
+      <img class='cookpot-img'
+      alt="Image of cookpot"
+      src='assets/cookpot.svg' 
+      width="160px" height="160px">
+    `
+}
+
 
