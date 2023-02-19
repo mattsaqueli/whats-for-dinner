@@ -70,4 +70,13 @@ function clearRecipe() {
     `
 }
 
+function randomRecipe() {
+      clearBtn.style.visibility = 'visible';
+      var btnOptions = document.getElementsByName('radio');
+      for (var i = 0; i < btnOptions.length; i++) {
+          if (btnOptions[i].checked) {
+              var mealOption = (btnOptions[i].value);
+            }
+        }
+}
 
