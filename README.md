@@ -22,6 +22,9 @@ Don't worry, I got you covered with a application that generates random meal opt
 ### Preview of App:
 [//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
 
+![Screenshot 2023-02-19 at 11 38 11 AM](https://user-images.githubusercontent.com/122226236/219965098-3207ec9d-dce1-4a4a-b2f0-378ac7f5daf0.png)
+
+
 ### Context:
 [//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
 
